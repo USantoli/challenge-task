@@ -19,6 +19,9 @@
 1. Navigate to `apps/backend`
 2. npx prisma db push
 3. npx prisma generate
+- Simply run: 
+npx prisma migrate dev --name init // For development
+npx prisma migrate deploy // For deployment
 
 ### Assumptions
 - Using PostgreSQL for storage
